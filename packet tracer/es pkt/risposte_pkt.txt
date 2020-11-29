@@ -1,0 +1,21 @@
+Step 1
+1- Routers, Switches, Hubs, Wireless Devices, Security, WAN Emulation
+2-15
+3-13
+4-6
+5-3
+
+Step 2
+1-il client è il device che effettua richieste ad un server, il quale gli risponde con l'informazione posseduta 
+2-Trasmettono il segnale, Inoltrano pacchetti
+3-Distanza dispositivi, Velocità necessaria
+
+Step 3
+1-Lan (Local Area Networks) è una rete di piccole dimensioni, popolata da pochi dispositivi come una rete di casa,
+  Wan (Wide Area Networks) è una rete di grandi dimesioni geografiche come una rete di una città.
+2-2
+3-3
+4-L'internet è la rete di comunicazione a livello globale
+5-Tramite rete 4G, connessione via cavo o wireless (connesse al router)
+6-Tramite centraline
+
