@@ -1,0 +1,13 @@
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\bin\Debug\netcoreapp3.1\ArrayMatrici.exe
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\bin\Debug\netcoreapp3.1\ArrayMatrici.deps.json
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\bin\Debug\netcoreapp3.1\ArrayMatrici.runtimeconfig.json
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\bin\Debug\netcoreapp3.1\ArrayMatrici.runtimeconfig.dev.json
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\bin\Debug\netcoreapp3.1\ArrayMatrici.dll
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\bin\Debug\netcoreapp3.1\ArrayMatrici.pdb
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\obj\Debug\netcoreapp3.1\ArrayMatrici.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\obj\Debug\netcoreapp3.1\ArrayMatrici.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\obj\Debug\netcoreapp3.1\ArrayMatrici.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\obj\Debug\netcoreapp3.1\ArrayMatrici.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\obj\Debug\netcoreapp3.1\ArrayMatrici.dll
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\obj\Debug\netcoreapp3.1\ArrayMatrici.pdb
+C:\Users\andre\OneDrive\Desktop\corso its esercizi\c#\ArrayMatrici\obj\Debug\netcoreapp3.1\ArrayMatrici.genruntimeconfig.cache

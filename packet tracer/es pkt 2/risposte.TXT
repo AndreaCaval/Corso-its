@@ -1,0 +1,30 @@
+Part 1
+step2 
+1- 24
+2- 2
+3- 0-4 5-15
+4- show startup-config
+5- because the start up configuration hasn't been saved yet
+
+Part 2
+step2
+1- it makes it so the user will be prompted with a login request
+step 7
+1- 5 $1$mERr$ILwq/b7kc.7X/ejA4Aosn0
+2- because it is an automatically encrypted password
+step8
+1- plain text
+
+Part 3
+step1
+1- The user first gets onto the router
+2- It keeps users updated on various activities, and it can also be used to warn against un-authorized access.
+
+Part 4
+step1
+1- copy run start
+2- show startup-config
+3- yes
+
+
+
