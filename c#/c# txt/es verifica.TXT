@@ -1,0 +1,178 @@
+using System;
+
+
+namespace ArrayMatrici
+{
+    class Program
+    {
+        //<
+        //>
+        static void Main(string[] args)
+        {
+            bool x = false, y = false;
+            int scelta = 0, scelta2 = 0;
+            do
+            {                
+                Console.WriteLine("1. Sviluppare un programma che, ricevuti in input l'etá della persona e il totale da pagare, calcoli il nuovo totale applicando lo sconto in base alle seguenti regole: minorenne 5% di sconto; maggiorenne 15%; over 60 30%.");
+                Console.WriteLine("2. Sviluppare il gioco \"Indovina il numero\". Il computer estrae un numero casuale compreso tra 1 e 100 e il giocatore deve indovinare il numero. Ad ogni tentativo il computer dice al giocatore se il numero da indovinare è maggiore o minore. Utilizzando questo suggerimento il giocatore dovrá scegliere il nuovo numero per effettuare un nuovo tentativo. Il gioco termina quando il giocatore indovina il numero del computer. Alla fine il computer scrive quanti sono stati i tentativi del giocatore.");
+                Console.WriteLine("");
+
+                do
+                {
+                    try
+                    {
+                        Console.WriteLine("Scegliere un esercizio: ");
+                        scelta = int.Parse(Console.ReadLine());
+                        x = true;
+                        if (scelta < 0 || scelta > 2)
+                        {
+                            Console.WriteLine("Errore inerimento scelta.\n");
+                            x = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("");
+                        }
+
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Errore inerimento scelta.\n");
+                    }
+
+                } while (x == false);
+
+                switch (scelta)
+                {
+                    case 1:
+                        Console.WriteLine("Esercizio 1:\n");
+                        esercizio1();
+                        break;
+                    case 2:
+                        Console.WriteLine("Esercizio 2:\n");
+                        esercizio2();
+                        break;                    
+                }
+
+                Console.WriteLine("\nVuoi ricominciare: 0(No) / 1(Yes): ");
+                try
+                {
+                    scelta2 = int.Parse(Console.ReadLine());
+                    if (scelta2 == 1)
+                    {
+                        y = true;
+                        Console.Clear();
+                    }
+                    else
+                    {
+                        y = false;
+                    }
+                }
+                catch { y = false; }
+
+            } while (y == true);
+        }
+
+        static int getNumber()
+        {
+            Console.WriteLine("Inserisci un numero: ");
+            return int.Parse(Console.ReadLine());
+        }
+
+        static void errorNumber()
+        {
+            Console.WriteLine("Errore inserimento numeri\n");
+        }        
+
+        static void esercizio1() 
+        {
+			bool x = false;
+            int eta = 0, tot = 0, prezzo_scontato=0;
+            do
+            {
+                try
+                {
+					Console.WriteLine("Inserisci l'età: ");
+                    eta = int.Parse(Console.ReadLine());
+                    
+					Console.WriteLine("Inserisci il totale: ");
+                    tot = int.Parse(Console.ReadLine());
+                    x = true;
+                    if (eta <= 0 || tot <= 0)
+                    {
+                        errorNumber();
+                        x = false;
+                    }
+
+                }
+                catch
+                {
+                    errorNumber();
+                }
+
+            } while (x == false);
+			
+			if(eta < 18)
+			{
+				prezzo_scontato = tot * 95 / 100;
+			}
+			else if(eta > 60)
+			{
+				prezzo_scontato = tot * 70 / 100;
+			}
+			else
+			{
+				prezzo_scontato = tot * 85 / 100;
+        	}
+			
+			Console.WriteLine("Il Prezzo scontato da pagare è: "+ prezzo_scontato.ToString()+"€");
+        }
+
+        static void esercizio2() {
+			Random rnd = new Random((int)DateTime.Now.Ticks);
+			int n_random = rnd.Next(1, 100);
+			int n = 0, tentativi = 0;
+			bool indovinato = false;
+			do
+			{
+				bool x = false;
+				do
+	            {				
+					try
+	                {
+						n = getNumber();
+	                    x = true;
+	                    if (n <= 0 || n > 100)
+	                    {
+	                        errorNumber();
+	                        x = false;
+	                    }
+	
+	                }
+	                catch
+	                {
+	                    errorNumber();
+	                }
+
+            	} while (x == false);
+				tentativi ++;
+				if(n == n_random)
+				{
+	            	Console.WriteLine("Numero indovinato! Hai vinto!  Tentativi:" + tentativi.ToString());					
+					indovinato = true;
+	            }
+				else if(n > n_random)
+				{
+					Console.WriteLine("Il numero inserito è più grande, riprova con uno più piccolo");
+				}
+				else
+				{
+					Console.WriteLine("Il numero inserito è più piccolo, riprova con uno più grande");
+	        	}
+				
+			} while (indovinato == false);
+			
+           
+        }
+    }       
+}
