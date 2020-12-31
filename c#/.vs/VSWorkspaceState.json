@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\es 15",
     "\\es 15\\bin",
     "\\es 15\\bin\\Debug",
     "\\es 15\\bin\\Debug\\netcoreapp3.1",
@@ -11,6 +10,6 @@
     "\\es 15\\obj\\Debug",
     "\\es 15\\obj\\Debug\\netcoreapp3.1"
   ],
-  "SelectedNode": "\\es 15\\obj\\Debug\\netcoreapp3.1",
+  "SelectedNode": "\\es 15",
   "PreviewInSolutionExplorer": false
 }
