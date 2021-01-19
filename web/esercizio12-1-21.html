@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio</title>
+
+    <style>
+        .header{
+            float: left;
+            height: 100px;
+        }
+        .header1{
+            background-color: blueviolet;
+            width: 200px;
+            position: relative;
+        }
+        .header2-adapt{
+            background-color: violet;
+            width: 100%;
+            margin-left: -200px;
+        }
+        .header2-adapt .inner{
+            margin-left: 200px;
+        }
+
+        .content{
+            float: left;
+            height: 300px;
+        }
+        .content1{
+            background-color: #4390d8;
+            width: 200px;
+            position: relative;
+        }
+        .content2-adapt{
+            background-color: blue;
+            width: 100%;
+            margin-left: -200px;
+            margin-right: -300px;
+        }
+        .content2-adapt .inner{
+            margin-left: 200px;
+            margin-right: 300px;
+        }
+        .content3{
+            background-color: #6ba5db;
+            width: 300px;
+            position: relative;
+        }
+
+        .footers{
+            float: left;
+            height: 100px;
+            width: 25%;
+        }
+        .footer1{
+            background-color: orange;
+        }
+        .footer2{
+            background-color: darkorange;
+        }
+        .footer3{
+            background-color: orangered;
+        }
+        .footer4{
+            background-color: red;
+        }
+        .azzera{
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="headers">
+        <div class="header header1">h1</div>
+        <div class="header header2-adapt">
+            <div class="inner">
+                h2
+            </div>
+        </div>
+    </div>
+    <div class="azzera"></div>
+    <div class="contents">
+        <div class="content content1">c1</div>
+        <div class="content content2-adapt">
+            <div class="inner">
+                c2
+            </div>
+        </div>
+        <div class="content content3">c3</div>
+    </div>
+    <div class="azzera"></div>
+    <div class="footer">
+        <div class="footers footer1">f1</div>
+        <div class="footers footer2">f2</div>
+        <div class="footers footer3">f3</div>
+        <div class="footers footer4">f4</div>
+    </div>
+</body>
+</html>

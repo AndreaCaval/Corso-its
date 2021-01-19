@@ -1,0 +1,12 @@
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.deps.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.runtimeconfig.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.runtimeconfig.dev.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.dll
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\bin\Debug\netcoreapp3.1\Timer.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.AssemblyInfoInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.AssemblyInfo.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.dll
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Timer\Timer\obj\Debug\netcoreapp3.1\Timer.genruntimeconfig.cache

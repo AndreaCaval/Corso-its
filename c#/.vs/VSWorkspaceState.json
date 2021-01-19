@@ -1,14 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\es 15\\bin",
+    "\\es 15",
     "\\es 15\\bin\\Debug",
     "\\es 15\\bin\\Debug\\netcoreapp3.1",
     "\\es 15\\bin\\Release",
     "\\es 15\\bin\\Release\\netcoreapp3.1",
-    "\\es 15\\obj",
     "\\es 15\\obj\\Debug",
-    "\\es 15\\obj\\Debug\\netcoreapp3.1"
+    "\\es 15\\obj\\Debug\\netcoreapp3.1",
+    "\\es 16"
   ],
   "SelectedNode": "\\es 15",
   "PreviewInSolutionExplorer": false

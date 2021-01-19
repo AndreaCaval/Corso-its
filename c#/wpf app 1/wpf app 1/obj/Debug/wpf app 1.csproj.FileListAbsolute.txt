@@ -1,0 +1,15 @@
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1.csprojAssemblyReference.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\MainWindow.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\App.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1_MarkupCompile.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1_MarkupCompile.lref
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\bin\Debug\wpf app 1.exe.config
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\bin\Debug\wpf app 1.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\bin\Debug\wpf app 1.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\MainWindow.baml
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1.g.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf_app_1.Properties.Resources.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1.csproj.GenerateResource.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\wpf app 1\wpf app 1\obj\Debug\wpf app 1.pdb

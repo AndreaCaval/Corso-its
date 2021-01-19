@@ -1,0 +1,13 @@
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\bin\Debug\netcoreapp3.1\Countdown.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\bin\Debug\netcoreapp3.1\Countdown.deps.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\bin\Debug\netcoreapp3.1\Countdown.runtimeconfig.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\bin\Debug\netcoreapp3.1\Countdown.runtimeconfig.dev.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\bin\Debug\netcoreapp3.1\Countdown.dll
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\bin\Debug\netcoreapp3.1\Countdown.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\obj\Debug\netcoreapp3.1\Countdown.csprojAssemblyReference.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\obj\Debug\netcoreapp3.1\Countdown.AssemblyInfoInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\obj\Debug\netcoreapp3.1\Countdown.AssemblyInfo.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\obj\Debug\netcoreapp3.1\Countdown.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\obj\Debug\netcoreapp3.1\Countdown.dll
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\obj\Debug\netcoreapp3.1\Countdown.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\Countdown\Countdown\obj\Debug\netcoreapp3.1\Countdown.genruntimeconfig.cache
