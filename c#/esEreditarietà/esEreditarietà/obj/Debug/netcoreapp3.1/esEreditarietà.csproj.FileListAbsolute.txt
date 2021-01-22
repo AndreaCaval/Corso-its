@@ -1,0 +1,13 @@
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\bin\Debug\netcoreapp3.1\esEreditarietà.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\bin\Debug\netcoreapp3.1\esEreditarietà.deps.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\bin\Debug\netcoreapp3.1\esEreditarietà.runtimeconfig.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\bin\Debug\netcoreapp3.1\esEreditarietà.runtimeconfig.dev.json
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\bin\Debug\netcoreapp3.1\esEreditarietà.dll
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\bin\Debug\netcoreapp3.1\esEreditarietà.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\obj\Debug\netcoreapp3.1\esEreditarietà.csprojAssemblyReference.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\obj\Debug\netcoreapp3.1\esEreditarietà.AssemblyInfoInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\obj\Debug\netcoreapp3.1\esEreditarietà.AssemblyInfo.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\obj\Debug\netcoreapp3.1\esEreditarietà.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\obj\Debug\netcoreapp3.1\esEreditarietà.dll
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\obj\Debug\netcoreapp3.1\esEreditarietà.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\esEreditarietà\esEreditarietà\obj\Debug\netcoreapp3.1\esEreditarietà.genruntimeconfig.cache
