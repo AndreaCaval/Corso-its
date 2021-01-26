@@ -38,9 +38,5 @@ namespace ConsoleApp1
             return area;
         }
 
-        public double Diagonale()
-        {
-            return 2.2;
-        }
     }
 }

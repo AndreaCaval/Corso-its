@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .container_1 {
+            display: flex;
+            flex-direction: row;
+            background-color: #cccccc;
+        }
+
+        .child_1 {
+            margin: 5px;
+            height: 100px;
+            background-color: #ff0000;
+            text-align: center;
+        }
+
+        #box1_1 {
+            flex-grow: 7;
+        }
+
+        #box1_2 {
+            flex-grow: 3;
+        }
+
+
+        .container_2 {
+            display: flex;
+            flex-direction: row;
+            background-color: #cccccc;
+        }
+
+        .child_2 {
+            margin: 5px;
+            height: 100px;
+            flex-grow: 1;
+            background-color: #800080;
+            text-align: center;
+        }
+
+
+        .container_3 {
+            display: flex;
+            flex-direction: row;
+            background-color: #cccccc;
+        }
+
+        .child_3 {
+            margin: 5px;
+            text-align: center;
+        }
+
+        #box3_1 {
+            flex-grow: 6;
+            background-color: #ff7f00;
+        }
+
+        #box3_2 {
+            flex-grow: 4;
+        }
+
+        .container_4 {
+            display: flex;            
+            flex-direction: column;
+            background-color: #cccccc;
+        }
+
+        .child_4 {
+            flex-grow: 1;
+            background-color: #ff7f00;
+            text-align: center;
+            margin: 5px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container_1">
+        <div class="child_1" id="box1_1">70%</div>
+        <div class="child_1" id="box1_2">30%</div>
+    </div>
+
+    <div class="container_2">
+        <div class="child_2" id="box2_1">1/3</div>
+        <div class="child_2" id="box2_2">1/3</div>
+        <div class="child_2" id="box2_3">1/3</div>
+    </div>
+
+    <div class="container_3">
+        <div class="child_3" id="box3_1">60%</div>
+        <div class="conteiner_4 child_3" id="box3_2">
+            <div class="child_4" id="box4_1">40%</div>
+            <div class="child_4" id="box4_2">40%</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
