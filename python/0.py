@@ -1,6 +1,11 @@
+
+import statistics
+
 lista = []
 
 for x in range (0,5):
-    lista.append(x)
+    print("Inserisci un numero: ")
+    lista.append(int(input())) 
 
-print(lista)
+
+print(statistics.mean(lista))
