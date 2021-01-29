@@ -1,0 +1,15 @@
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\bin\Debug\WpfApp1 Timer.exe.config
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\bin\Debug\WpfApp1 Timer.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\bin\Debug\WpfApp1 Timer.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer.csprojAssemblyReference.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\MainWindow.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\App.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer_MarkupCompile.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer_MarkupCompile.lref
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\MainWindow.baml
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer.g.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1_Timer.Properties.Resources.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer.csproj.GenerateResource.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Timer\WpfApp1 Timer\obj\Debug\WpfApp1 Timer.pdb

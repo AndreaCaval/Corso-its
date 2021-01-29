@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp1_Timer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_Timer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="btnImposta" Content="Imposta" HorizontalAlignment="Left" Margin="252,127,0,0" VerticalAlignment="Top" Width="110" Click="btnImposta_Click" Height="30"/>
+        <TextBox Name="txtOrario" HorizontalAlignment="Left" Height="30" Margin="137,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" RenderTransformOrigin="1.091,3.1"/>
+        <Label Content="Orario (es 12:00) :" HorizontalAlignment="Left" Height="30" Margin="22,127,0,0" VerticalAlignment="Top" Width="110"/>
+    </Grid>
+</Window>

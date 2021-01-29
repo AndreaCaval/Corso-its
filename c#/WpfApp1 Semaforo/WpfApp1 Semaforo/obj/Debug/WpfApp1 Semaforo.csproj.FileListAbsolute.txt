@@ -1,0 +1,15 @@
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\bin\Debug\WpfApp1 Semaforo.exe.config
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\bin\Debug\WpfApp1 Semaforo.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\bin\Debug\WpfApp1 Semaforo.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo.csprojAssemblyReference.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\MainWindow.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\App.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo_MarkupCompile.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo_MarkupCompile.lref
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\MainWindow.baml
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo.g.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1_Semaforo.Properties.Resources.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo.csproj.GenerateResource.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 Semaforo\WpfApp1 Semaforo\obj\Debug\WpfApp1 Semaforo.pdb
