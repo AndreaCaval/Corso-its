@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text {
+            text-align: center;
+        }
+        
+        .headers {
+            width: 100%;
+            background-color: aqua;
+            margin-bottom: 5px;
+        }
+        
+        .content {
+            float: left;
+            height: 300px;
+            width: 100%;
+        }
+        
+        .content1 {
+            background-color: #4390d8;
+            width: 200px;
+            position: relative;
+        }
+        
+        .content2-adapt {
+            width: 100%;
+            margin-left: -200px;
+            margin-right: -300px;
+        }
+        
+        .content2-adapt .inner {
+            height: 300px;
+            background-color: blue;
+            margin-left: 200px;
+            margin-right: 300px;
+        }
+        
+        .content3 {
+            background-color: #6ba5db;
+            width: 300px;
+            position: relative;
+        }
+        
+        .mini_content {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .mini_content1 {
+            width: 50%;
+            background-color: olive;
+            margin: 5px;
+        }
+        
+        .mini_content2 {
+            width: 50%;
+            background-color: olivedrab;
+            margin: 5px;
+        }
+        
+        .footer {
+            width: 100%;
+            background-color: aqua;
+            margin: 5px;
+        }
+        
+        .azzera {
+            clear: both;
+        }
+        
+        @media screen and (max-width: 900px) {
+            body {
+                background-color: palegoldenrod;
+            }
+            .contents {
+                display: flex;
+                flex-direction: column;
+            }
+            .content {
+                float: none;
+                margin: 5px;
+            }
+            .content1 {
+                width: 100%;
+            }
+            .content2-adapt {
+                width: 100%;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .content2-adapt .inner {
+                height: 300px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .content3 {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: pink;
+            }
+            .contents {
+                display: flex;
+                flex-direction: column;
+            }
+            .content {
+                float: none;
+                margin: 5px;
+            }
+            .mini_content {
+                display: flex;
+                flex-direction: column;
+            }
+            .mini_content1 {
+                width: 100%;
+            }
+            .mini_content2 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text headers">
+        A
+    </div>
+    <div class="text azzera"></div>
+
+    <div class="contents">
+        <div class="text content content1">B</div>
+        <div class="content content2-adapt">
+            <div class="text inner">
+                C
+            </div>
+        </div>
+        <div class="text content content3">D</div>
+    </div>
+    <div class="azzera"></div>
+
+    <div class="mini_content">
+        <div class="text mini_content1">
+            E
+        </div>
+        <div class="text mini_content2">
+            F
+        </div>
+    </div>
+    <div class="azzera"></div>
+
+    <div class="text footer">
+        G
+    </div>
+
+</body>
+
+</html>
