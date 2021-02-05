@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1_Note.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_Note"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Name="lstNote" HorizontalAlignment="Left" Height="399" Margin="532,10,0,0" VerticalAlignment="Top" Width="250"/>
+        <Label Content="Testo" HorizontalAlignment="Left" Height="24" Margin="287,50,0,0" VerticalAlignment="Top" Width="57"/>
+        <TextBox Name="txtTesto" HorizontalAlignment="Left" Height="150" Margin="349,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178"/>
+        <Button Name="btnSalva" Content="Salva" HorizontalAlignment="Left" Height="35" Margin="437,10,0,0" VerticalAlignment="Top" Width="90" Click="btnSalva_Click"/>
+
+    </Grid>
+</Window>

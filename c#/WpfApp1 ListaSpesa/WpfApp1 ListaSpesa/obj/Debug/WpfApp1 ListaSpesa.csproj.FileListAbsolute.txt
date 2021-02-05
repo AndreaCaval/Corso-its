@@ -1,0 +1,15 @@
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\bin\Debug\WpfApp1 ListaSpesa.exe.config
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\bin\Debug\WpfApp1 ListaSpesa.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\bin\Debug\WpfApp1 ListaSpesa.pdb
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa.csprojAssemblyReference.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\MainWindow.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\App.g.cs
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa_MarkupCompile.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa_MarkupCompile.lref
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\MainWindow.baml
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa.g.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1_ListaSpesa.Properties.Resources.resources
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa.csproj.GenerateResource.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa.exe
+C:\Users\Andrea\Documents\dev\Corso-its\c#\WpfApp1 ListaSpesa\WpfApp1 ListaSpesa\obj\Debug\WpfApp1 ListaSpesa.pdb
