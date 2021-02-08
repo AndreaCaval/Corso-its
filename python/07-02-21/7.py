@@ -1,6 +1,8 @@
-l = [1,2,3,4,5,6]
 
-w = 6
+d = 6
+l = [x for x in range(1,d+1)]
+
+w = d
 
 for x in l:
     s = " "*x
@@ -9,7 +11,7 @@ for x in l:
     w = w - 1
     print(s)
 
-w = 6
+w = d
 for x in l:
     s = " "*(len(l)-x+1)
     for y in range (0, x):
