@@ -1,0 +1,61 @@
+﻿@page "/dettagliostudente/{Id:int}"
+
+@using BlazorAppFITSTIC.Data
+@using System.Linq
+@inject Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage.ProtectedLocalStorage pls
+
+<h3>DettaglioStudente</h3>
+
+<div class="alert alert-danger @(showError ? "d-block" : "d-none")">
+    <p>
+        Errore: studente non trovato.
+    </p>
+</div>
+
+@if (s != null)
+{
+    <label>Nome</label>
+    <input type="text" @bind-value="s.Nome" class="form-control" />
+
+    <label>Cognome</label>
+    <input type="text" @bind-value="s.Cognome" class="form-control" />
+
+    <label>Data di nascita</label>
+    <input type="date" @bind-value="s.Nascita" class="form-control" />
+
+    <label>Anno iscrizione</label>
+    <input type="number" @bind-value="s.AnnoIscrizione" class="form-control" />
+
+    <button class="btn btn-outline-primary" @onclick="SaveStudent">Salva</button>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    bool showError = false;
+    private Student s;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var res = await pls.GetAsync<List<Student>>("students");
+        if (res.Success)
+        {
+            List<Student> ls = res.Value;
+            s = ls.FirstOrDefault(st => st.Id == Id);
+            if (s == null)
+            {
+                showError = true;
+            }
+            else
+            {
+
+            }
+        }
+    }
+
+    async Task SaveStudent()
+    {
+
+    }
+}

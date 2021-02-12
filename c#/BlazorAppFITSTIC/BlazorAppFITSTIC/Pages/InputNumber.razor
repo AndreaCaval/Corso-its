@@ -1,0 +1,25 @@
+﻿@page "/inputnumber"
+<h3>InputNumber</h3>
+
+<label>Inserisci un numero:</label>
+<input class="form-control" type="text" @bind-value="sNumero" />
+
+<button class="btn btn-primary" @onclick="LeggiNumero" >Vai</button>
+
+<span>@messageResult</span>
+
+@code {
+    string sNumero, messageResult;
+    void LeggiNumero()
+    {
+        int n;
+        if(int.TryParse(sNumero, out n))
+        {
+            messageResult = "Bravo! Hai inserito il numero "+n;
+        }
+        else
+        {
+            messageResult = "No! devi inserire un numero.";
+        }
+    }
+}

@@ -1,0 +1,57 @@
+﻿@page "/listastudenti"
+
+@using BlazorAppFITSTIC.Data
+@inject Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage.ProtectedLocalStorage pls
+
+<h3>Lista studenti</h3>
+
+@if (students == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Nascita</th>
+                <th>Iscrizione</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in students)
+            {
+                <tr>
+                    <td>@s.Nome</td>
+                    <td>@s.Cognome</td>
+                    <td>@s.Nascita.ToShortDateString()</td>
+                    <td>@s.AnnoIscrizione</td>
+                    <td>
+                        <a href="/dettagliostudente/@s.Id" class="btn btn-outline-info">Modifica</a>
+                        <button class="btn btn-outline-danger">Elimina</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Student> students;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var res = await pls.GetAsync<List<Student>>("students");
+        if (res.Success)
+        {
+            students = res.Value;
+        }
+        else
+        {
+            students = new List<Student>();
+        }
+    }
+}

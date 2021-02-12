@@ -1,0 +1,71 @@
+﻿@page "/nuovostudente"
+@using BlazorAppFITSTIC.Data
+@using System.Linq
+@inject Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage.ProtectedLocalStorage pls
+
+<h3>Nuovo studente</h3>
+
+<div class="alert alert-danger @(showError ? "d-block" : "d-none")">
+    <p>
+        Errore: controlla i dati in pagina.
+    </p>
+</div>
+
+<label>Nome</label>
+<input type="text" @bind-value="nome" class="form-control" />
+
+<label>Cognome</label>
+<input type="text" @bind-value="cognome" class="form-control" />
+
+<label>Data di nascita</label>
+<input type="date" @bind-value="dtNascita" class="form-control" />
+
+<label>Anno iscrizione</label>
+<input type="text" @bind-value="annoIscr" class="form-control" />
+
+<button class="btn btn-outline-primary" @onclick="SaveStudent">Salva</button>
+
+@code {
+    bool showError = false;
+    string nome, cognome, annoIscr = DateTime.Now.Year.ToString();
+    DateTime dtNascita = DateTime.Now;
+
+    async Task SaveStudent()
+    {
+        int anno;
+        int.TryParse(annoIscr, out anno);
+        try
+        {
+            Student s = new Student(nome, cognome, dtNascita, anno);
+
+            List<Student> ls;
+            var res = await pls.GetAsync<List<Student>>("students");
+            if (res.Success)
+            {
+                ls = res.Value;
+            }
+            else
+            {
+                ls = new List<Student>();
+            }
+
+            if (ls.Count > 0)
+            {
+                int maxId = ls.Max(st => st.Id);
+                s.Id = maxId + 1;
+            }
+            else
+            {
+                s.Id = 1;
+            }
+
+            ls.Add(s);
+
+            await pls.SetAsync("students", ls);
+        }
+        catch (ArgumentException ex)
+        {
+            showError = true;
+        }
+    }
+}
