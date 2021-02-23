@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header>
+    <div class="web">
+        <nav class="nav_bar">
+            <a href="#" class="menu_bar_icon" onclick="onIconClicked(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+            <div id="menuBar" class="menu_bar">
+                <ul>
+                    <li class="logo" itemscope itemtype="http://schema.org/Organization">
+                        <a href="<?=$root?>" itemprop="url"><img itemprop="logo" src="<?=$root?>assets/images/logo-amc.svg" alt="Amo la mia città" class="img-fluid"></a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="index.html" target="_self">home</a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="" target="_self">e-commerce</a>
+                    </li>
+                    <li>
+                        <a class="menu_item arrow" href="" target="_self">ti serve aiuto</a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="negozi_aderenti.html" target="_self">negozi aderenti</a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="" target="_self">beneficienza</a>
+                    </li>
+                    <li class="login">
+                        <a href="#" >accedi/registrati</a>
+                    </li>
+                    <li class="hai_un_negozio">
+                        <a href="#" >hai un negozio?</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="banner">
+        <div class="slide1 mySlides fade">
+            <div class="web">
+                <div class="text-banner">
+                    <h1>il primo e-commerce di soli imprenditori nel territorio</h1>
+                    <p>Con <strong>AmoLaMiaCittà</strong> tutti i negozi possono vendere anche online. Ordina, ricevi a casa e ottieni sconti. Mantieni la qualità senza rinunciare alla comodità ed alla convenienza.</p>
+                    <a href="#" class="button button_banner ico_banner ico-download"><span>scarica app</span></a>
+                </div>
+                <div class="phone_img">
+                    <img src="images/phone.png" alt="phone">
+                </div>
+            </div>
+        </div>
+        <div class="slide2 mySlides fade">
+            <div class="web">
+                <div class="text-banner">
+                    <h1>il primo e-commerce di soli imprenditori nel territorio</h1>
+                    <p>Con <strong>AmoLaMiaCittà</strong> tutti i negozi possono vendere anche online. Ordina, ricevi a casa e ottieni sconti. Mantieni la qualità senza rinunciare alla comodità ed alla convenienza.</p>
+                    <a href="#" class="button button_banner ico_banner ico-download"><span>scarica app</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="slide3 mySlides fade">
+            <div class="web">
+                <div class="text-banner">
+                    <h1>il primo e-commerce di soli imprenditori nel territorio</h1>
+                    <p>Con <strong>AmoLaMiaCittà</strong> tutti i negozi possono vendere anche online. Ordina, ricevi a casa e ottieni sconti. Mantieni la qualità senza rinunciare alla comodità ed alla convenienza.</p>
+                    <a href="#" class="button button_banner ico_banner ico-download"><span>scarica app</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dots">
+        <div class="dot" onclick="currentSlide(1)"></div>
+        <div class="dot" onclick="currentSlide(2)"></div>
+        <div class="dot" onclick="currentSlide(3)"></div>
+    </div>
+
+    <div class="background_gradient_gray">
+        <div class="web valore">
+            <section class="item-valore">
+                <div class="img-valore">
+                    <div class="gradient_circle">
+                        <div class="circle ico-km0">0</div>
+                    </div>
+                </div>
+                <div class="text-valore">
+                    <h3>prodotti di ogni genere</h3>
+                    <p>Dalla frutta alle scarpe, su AmolaMiaCittà si possono comprare e vendere ogni tipo di prodotto!</p>
+                </div>
+                <a href="#" class="button">scopri</a>
+            </section>
+            <section class="item-valore">
+                <div class="img-valore">
+                    <div class="gradient_circle">
+                        <div class="circle ico-km0">0</div>
+                    </div>
+                </div>
+                <div class="text-valore">
+                    <h3>la storia di amc</h3>
+                    <p>Amo la Mia Città nasce dai negozianti per i clienti! Scopri chi siamo!</p>
+                </div>
+                <a href="#" class="button">scopri</a>
+            </section>
+            <section class="item-valore">
+                <div class="img-valore">
+                    <div class="gradient_circle">
+                        <div class="circle ico-km0">0</div>
+                    </div>
+                </div>
+                <div class="text-valore">
+                    <h3>la spesa a casa</h3>
+                    <p>Decidi tu data e ora di spedizione! Decidi tu quando pagare!</p>
+                </div>
+                <a href="#" class="button">scopri</a>
+            </section>
+            <section class="item-valore">
+                <div class="img-valore">
+                    <div class="gradient_circle">
+                        <div class="circle ico-valore"></div>
+                    </div>
+                </div>
+                <div class="text-valore">
+                    <h3>valore ai tuoi acquisti</h3>
+                    <p>Accumula punti con ogni acquisto e trasformali in sconti o donazioni!</p>
+                </div>
+                <a href="#" class="button">scopri</a>
+            </section>
+            <section class="item-valore">
+                <div class="img-valore">
+                    <div class="gradient_circle">
+                        <div class="circle ico-valore"></div>
+                    </div>
+                </div>
+                <div class="text-valore">
+                    <h3>cosa ti conviene sapere!</h3>
+                    <p>Qui ti spieghiamo come comprare, come fare sconti, i tempi di spedizione e dove posso acquistare il fresco!</p>
+                </div>
+                <a href="#" class="button">scopri</a>
+            </section>
+            <section class="item-valore">
+                <div class="img-valore">
+                    <div class="gradient_circle">
+                        <div class="circle ico-tutti"></div>
+                    </div>
+                </div>
+                <div class="text-valore">
+                    <h3>la nostra filosofia</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <a href="#" class="button">scopri</a>
+            </section>
+        </div>
+    </div>
+
+    <div class="background_mani">
+        <div class="web mani">
+            <div class="img-mani">
+                <div class="circle-mani-out">
+                    <div class="circle-mani-in"></div>
+                </div>
+            </div>
+            <div class="text-mani">
+                <h3>SEI UN NEGOZIANTE? APRI LE PORTE DEL TUO NEGOZIO AD AMC!</h3>
+                <p>Clicca qui per scoprirci o farci domande!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="web offerte">
+        <h2>Imperdibili Offerte Dai Nostri Associati (testo da sostituire)</h2>
+        <section class="offerte-form">
+            <form>
+                <label for="cerca">Cerca</label>
+                <input type="text" placeholder="Cerca..." name="cerca" id="cerca">
+                <button class="button button_red">cerca</button>
+            </form>
+            <a href="#" id="cart" class="item-circle circle ico ico-carrello"></a>
+        </section>
+    </div>
+    <div class="button_offerte">
+        <a href="#" class="button button_red">prodotti</a>
+        <a href="#" class="button button_grey">negozi</a>
+    </div>
+
+    <div class="web carousel">
+        <a href="#" class="carousel-item">
+            <div class="circle ico_arrow ico-download2-prev"></div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item1">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-farmacia"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item2">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-cancelleria"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item3">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-carne"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item4">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-frutta"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item5">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-pesce"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item6">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-farmacia"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item7">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-cancelleria"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item8">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-carne"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item9">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-frutta"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item" id="carousel-item10">
+            <div class="gradient_circle">
+                <div class="circle ico_big ico-pesce"></div>
+            </div>
+        </a>
+        <a href="#" class="carousel-item">
+            <div class="ico_arrow ico-download2-next"></div>
+        </a>
+    </div>
+
+    <div class="background_red">
+        <div class="web galleria">
+            <div class="row">
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_new"><p>New</p></div>
+                        <img src="images/immagine_ecom1.png" alt="imm_ecom1">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_new"><p>New</p></div>
+                        <img src="images/immagine_ecom1.png" alt="imm_ecom1">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_green"><p>-40%</p></div>
+                        <img src="images/immagine_ecom2.png" alt="imm_ecom2">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_green"><p>-40%</p></div>
+                        <img src="images/immagine_ecom2.png" alt="imm_ecom2">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <img src="images/immagine_ecom3.png" alt="imm_ecom3">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p></p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <img src="images/immagine_ecom3.png" alt="imm_ecom3">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_new"><p>New</p></div>
+                        <img src="images/immagine_ecom1.png" alt="imm_ecom1">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_new"><p>New</p></div>
+                        <img src="images/immagine_ecom1.png" alt="imm_ecom1">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_green"><p>-40%</p></div>
+                        <img src="images/immagine_ecom2.png" alt="imm_ecom2">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <div class="tag tag_green"><p>-40%</p></div>
+                        <img src="images/immagine_ecom2.png" alt="imm_ecom2">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <img src="images/immagine_ecom3.png" alt="imm_ecom3">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p></p>
+                    </div>
+                </article>
+                <article class="ecom-item">
+                    <figure class="ecom-figure">
+                        <img src="images/immagine_ecom3.png" alt="imm_ecom3">
+                    </figure>
+                    <div class="text-ecom">
+                        <h3>Nome prodotto. Anche due righe di testo</h3>
+                        <strong>EUR 100.00</strong>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="button_galleria">
+            <button>altri</button>
+        </div>
+    </div>
+    <div class="web info">
+        <a href="#" class="item-info nostri_premi">
+            <div class="info-circle color_nostri_premi ico-premi"></div>
+            <div class="info-text">
+                <h4>i nostri premi</h4>
+            </div>
+        </a>
+        <a href="#" class="item-info regolamento">
+            <div class="info-circle color_regolamento ico-regolamento"></div>
+            <div class="info-text">
+                <h4>regolamento raccolta punti</h4>
+            </div>
+        </a>
+
+        <a href="#" class="item-info negoziante">
+            <div class="info-circle color_negoziante ico-negoziante"></div>
+            <div class="info-text">
+                <h4>sei un negoziante?</h4>
+            </div>
+        </a>
+    </div>
+
+
+</main>
+<footer>
+    <div class="newsletter">
+        <div class="web item-newsletter">
+            <h2>Hai consigli sul sito, sull'organizzazione, sulla spedizione o su altro? Saremmo felici di sapere la tua opinione per migliorarci!</h2>
+            <section class="col-left newsletter-form">
+                <form>
+                    <label>
+                        <input type="text" placeholder="La tua email" name="e_mail">
+                    </label>
+                    <button class="button_red">iscriviti</button>
+                </form>
+            </section>
+            <section class="col-right social">
+                <span class="ico_gray social-border ico-facebook"></span>
+                <span class="ico_gray social-border ico-twitter"></span>
+                <span class="ico_gray social-border ico-pinterest"></span>
+                <span class="ico_gray social-border ico-instagram"></span>
+            </section>
+        </div>
+    </div>
+    <div class="background_light_grey">
+        <div class="web contacts">
+            <section class="contacts-item">
+                <h4>AMC</h4>
+                <ul>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                </ul>
+            </section>
+            <section class="contacts-item">
+                <h4>Area Negozianti</h4>
+                <ul>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                </ul>
+            </section>
+            <section class="contacts-item">
+                <h4>Area Clienti</h4>
+                <ul>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                    <li><a href="#">voce</a></li>
+                </ul>
+            </section>
+            <section class="contacts-item">
+                <h4>Contattaci</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="ico_dark_gray ico-tel"></span>
+                            <strong>+39xxxxxxxx</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ico_dark_gray ico-mail"></span>
+                            <strong>info@amolamiacitta.com</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="ico_dark_gray ico-pin"></span>
+                            <strong>Via xxxxxxxxxxxxxxx</strong>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div class="background_red">
+        <div class="web address">
+            <a href="<?=$root?>" itemprop="url"><img itemprop="logo" src="<?=$root?>assets/images/logo-amc.svg" alt="Amo la mia città" class="img-fluid"></a>
+            <p><strong>AMO LA MIA CITTÀ S.r.l.s.</strong>- Codice Fiscale e Partita Iva: 04298820400 - Numero di Iscrizione al Registro Imprese di Forlì: n. 337826 </p>
+            <div class="social">
+                <span class="ico_white ico-facebook"></span>
+                <span class="ico_white ico-twitter"></span>
+                <span class="ico_white ico-pinterest"></span>
+                <span class="ico_white ico-instagram"></span>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script>
+    /*navbar*/
+    function onIconClicked(x){
+        x.classList.toggle("change");
+        var y =  document.getElementById("menuBar").style.display;
+    }
+
+    /* slide show*/
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+@media (min-width: 576px) {
+
+} /* end min-width: 576px */
+
+@media (min-width: 768px) {
+    .valore, .mani, .galleria,
+    .contacts, .offerte-form,
+    .item-newsletter,.newsletter-form, .address,
+    .info-negozi, .search-negozi,
+    .ambiti {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .col-left,.col-right {
+        margin: 0 50px;
+    }
+    header {
+        height: 60px;
+    }
+    .nav_bar {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .menu_bar_icon {
+        display: none;
+    }
+    .banner {
+        z-index: 5;
+    }
+    .text-banner {
+        width: 60%;
+        margin-left: 20px;
+    }
+    .phone_img {
+        height: 500px;
+        display: flex;
+        width: 30%;
+        z-index: 2;
+        position: absolute;
+        right: 60px;
+        top: 111px;
+    }
+    .ecom-item {
+        width: 160px;
+    }
+    .item-valore {
+        width: 30%;
+    }
+    .item-info {
+        width: 50%;
+        margin: 20px auto;
+    }
+    .background_mani {
+        height: 105px;
+    }
+    .background_mani:before {
+        height: 113px;
+    }
+    .circle-mani-out {
+        left: 0;
+    }
+    .text-mani {
+        width: 70%;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .address p {
+        width: 60%;
+    }
+    .impegno_sociale {
+        justify-content: flex-end;
+    }
+    .offerte-form,
+    .newsletter-form {
+        justify-content: space-evenly;
+    }
+    .impegno_sociale input,
+    .offerte-form input,
+    .newsletter-form input {
+        width: 400px;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .impegno_sociale button,
+    .newsletter-form button,
+    .offerte-form button {
+        position: relative;
+        top: 0;
+        left: -60px;
+        margin-bottom: 0;
+    }
+    .contacts-item {
+        width: 20%;
+    }
+    .contacts-item strong {
+        font-size: 14px;
+        line-height: 36px;
+        margin-left: 36px;
+    }
+    .spedizioni-negozi-text {
+        width: 90%;
+    }
+    .search-negozi .carousel {
+        justify-content: center;
+        padding-left: 0;
+    }
+    .search-negozi-text {
+        flex-flow: row;
+        justify-content: space-evenly;
+    }
+    .search-negozi-text form {
+        position: relative;
+        left: 30px;
+    }
+    .search-negozi-text button {
+        position: absolute;
+        top: 0;
+        right: -60px;
+    }
+    .search-negozi-text input {
+        padding-right: 100px;
+    }
+    .newsletter .social,
+    .address .social {
+        justify-content: center;
+        align-content: center;
+        width: 30%;
+    }
+
+} /* end min-width: 768px */
+
+@media (min-width: 992px) {
+    .menu_bar {
+        z-index: 5;
+        margin-top: -40px;
+    }
+    .menu_bar ul {
+        flex-flow: row nowrap;
+    }
+    .menu_bar li {
+        padding: 20px 2px;
+        line-height: 40px;
+    }
+    .menu_bar .arrow:after {
+        visibility: visible;
+    }
+    .hai_un_negozio,
+    .login{
+        height: 80px;
+    }
+    .banner-negozi {
+        height: 400px;
+    }
+    .banner-page-text {
+        top: 20%;
+    }
+    .banner-page-text h1 {
+        font-size: 42px;
+        margin-top: 5px;
+    }
+    .banner-page-text h5 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .banner-negozi-circle {
+        bottom: 30%;
+    }
+    .search-negozi .carousel {
+        justify-content: flex-start;
+    }
+    .social,
+    .search-negozi-text section {
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .phone_img {
+        right: 14%;
+    }
+    .ecom-item {
+        width: 15%;
+    }
+    .info {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .info-negozi-text p {
+        margin-top: 40px;
+    }
+    .info-negozi-text h5 {
+        margin: 0;
+    }
+
+    .item-info {
+        width: 30%;
+        margin: 20px;
+    }
+    .col-left, .col-right {
+        width: 45%;
+        margin: 0 10px;
+    }
+    .search-negozi-text form {
+        left: 0;
+    }
+    .applicazioni {
+        flex-flow: row;
+    }
+    .button_banner_gray {
+        width: 400px;
+    }
+
+} /* end min-width: 992px */
+
+@media (min-width: 1200px) {
+    .menu_bar li {
+        padding: 20px 2px;
+    }
+
+    .newsletter-form {
+        justify-content: flex-start;
+    }
+    .newsletter .social,
+    .address .social {
+        justify-content: flex-end;
+        align-content: center;
+        width: 25%;
+    }
+    .button_banner_gray {
+        width: 500px;
+    }
+
+
+} /* end min-width: 1200px
