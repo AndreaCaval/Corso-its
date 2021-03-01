@@ -6,7 +6,40 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            mainQuadrato();
+            int[,] matrice = new int[8, 8];
+            char[,] matriceLettere = new char[8, 8];
+            int c = 1;
+            int inizio = 65;
+
+            char lettera = 'D';
+            int riga = 5;
+            int colonna = 4;
+
+            Console.WriteLine((int)lettera);
+
+            for (int i = 0; i <= 7; i++)
+            {
+                for (int y = 0; y <= 7; y++)
+                {                    
+                    matriceLettere[i, y] = (char)(y + inizio);
+                    
+
+                    if(i+1 != riga && y+1 != colonna && colonna - riga == y - i)
+                    {
+                        Console.Write(matriceLettere[i, y].ToString().ToLower() + "" + (i + 1) + " ");
+                    }
+                    else
+                    {
+                        Console.Write(matriceLettere[i, y] + "" + (i + 1) + " ");
+                    }
+
+
+                    c++;
+
+
+                }
+                Console.WriteLine("");
+            }
         }
 
         static void mainCerchio()
