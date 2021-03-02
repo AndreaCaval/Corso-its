@@ -40,7 +40,7 @@ namespace FITSTIC20.Classes
         public bool Valida()
         {
             return NRiga > 0 && NRiga <= 8 &&
-                NColonna > 0 && NColonna <= 8;
+                NColonna >= 0 && NColonna < 8;
         }
     }
 }

@@ -11,5 +11,6 @@ namespace FITSTIC20.Classes
     /// </summary>
     public interface ITest
     {
+        IEnumerable<Cella> CalcolaMosseDisponibili(Cella partenza);
     }
 }

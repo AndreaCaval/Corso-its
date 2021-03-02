@@ -14,6 +14,7 @@ namespace FITSTIC20.Classes
             int direzione = Bianco ? 1 : -1;            
             List<Cella> celle = new List<Cella>();
 
+            
             for (int i = 1; i <= 2; i++)
             {
                 Cella c = new Cella(partenza.LetteraColonna() + "" + (partenza.NRiga + i * direzione));

@@ -8,18 +8,43 @@ namespace FITSTIC20
 {
     public class TestEsame
     {
+        //Pedone
         [TestCase("D2", "D3", typeof(Pedone), true)]
         [TestCase("D2", "D4", typeof(Pedone), true)]
         [TestCase("G7", "G6", typeof(Pedone), false)]
         [TestCase("G7", "G5", typeof(Pedone), false)]
+
+        //Cavallo
         [TestCase("D4", "E6", typeof(Cavallo), true)]
-        [TestCase("B1","C3", typeof(Cavallo), true)]
+        [TestCase("B1", "C3", typeof(Cavallo), true)]
+
+        //Alfiere
         [TestCase("D5", "G8", typeof(Alfiere), true)]
         [TestCase("D5", "A2", typeof(Alfiere), true)]
-        [TestCase("D5", "C7", typeof(Alfiere), true)]
+        [TestCase("D5", "C6", typeof(Alfiere), true)]
         [TestCase("D5", "G2", typeof(Alfiere), true)]
+        [TestCase("C3", "A5", typeof(Alfiere), true)]
 
-        //[TestCase("A8","A4", typeof(Torre), false)]
+        //Torre
+        [TestCase("D5", "D2", typeof(Torre), true)]
+        [TestCase("G3", "A3", typeof(Torre), true)]
+        [TestCase("B5", "B8", typeof(Torre), true)]
+
+        //Regina
+        [TestCase("D5", "G8", typeof(Regina), true)]
+        [TestCase("D5", "A2", typeof(Regina), true)]
+        [TestCase("D5", "G2", typeof(Regina), true)]
+        [TestCase("C3", "A5", typeof(Regina), true)]
+        [TestCase("D5", "D2", typeof(Regina), true)]
+        [TestCase("G3", "A3", typeof(Regina), true)]
+        [TestCase("B5", "B8", typeof(Regina), true)]
+
+        //Re
+        [TestCase("E1", "F1", typeof(Re), true)]
+        [TestCase("D3", "D2", typeof(Re), true)]
+        [TestCase("D3", "C4", typeof(Re), true)]
+        [TestCase("A8", "B8", typeof(Re), true)]
+
         public void TestMossaValida(string cellaPartenza, string cellaArrivo, Type tipoPezzo, bool bianco)
         {
             Cella partenza = new Cella(cellaPartenza);
@@ -70,7 +95,7 @@ namespace FITSTIC20
             {
                 Pezzo p = (Pezzo)Activator.CreateInstance(type, new object[] { bianco });
                 var cellePossibili = p.CalcolaMosseDisponibili(c).ToList();
-                Assert.True(cellePossibili.TrueForAll(cl=>cl.Valida()));
+                Assert.True(cellePossibili.TrueForAll(cl => cl.Valida()));
             }
         }
 
@@ -78,7 +103,7 @@ namespace FITSTIC20
         {
             return System.Reflection.Assembly.GetExecutingAssembly()
                 .GetTypes()
-                .Where(type => typeof(ITest).IsAssignableFrom(type) && 
+                .Where(type => typeof(ITest).IsAssignableFrom(type) &&
                 typeof(Pezzo).IsAssignableFrom(type))
                 .ToList();
         }
