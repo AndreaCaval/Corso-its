@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ilSBlGai3YiK5UxG0K+Y7pZqpdR9IrYBw6T98AWv6NdsLiwl1KhA563LE6cVfJGbXUhXmK4ZhzC6J81XcvYYUw==",
+  "dgSpecHash": "Kv7Jt2dVm092r0HcMQ6rfcKW3BVmo1jYxu+cDvaYO1ggPYLSoQgLltIMPCnRo/xrth2FrEMwCrx1Jmwr+6Rf7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrea\\Downloads\\FITSTIC20_Esame-20210302T083713Z-001\\FITSTIC20_Esame\\FITSTIC20.csproj",
+  "projectFilePath": "C:\\Users\\Andrea\\Documents\\dev\\Corso-its\\c#\\FITSTIC20_Esame_2\\FITSTIC20.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

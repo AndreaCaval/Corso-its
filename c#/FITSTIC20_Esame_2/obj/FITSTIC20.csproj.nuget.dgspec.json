@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrea\\Downloads\\FITSTIC20_Esame-20210302T083713Z-001\\FITSTIC20_Esame\\FITSTIC20.csproj": {}
+    "C:\\Users\\Andrea\\Documents\\dev\\Corso-its\\c#\\FITSTIC20_Esame_2\\FITSTIC20.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrea\\Downloads\\FITSTIC20_Esame-20210302T083713Z-001\\FITSTIC20_Esame\\FITSTIC20.csproj": {
+    "C:\\Users\\Andrea\\Documents\\dev\\Corso-its\\c#\\FITSTIC20_Esame_2\\FITSTIC20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrea\\Downloads\\FITSTIC20_Esame-20210302T083713Z-001\\FITSTIC20_Esame\\FITSTIC20.csproj",
+        "projectUniqueName": "C:\\Users\\Andrea\\Documents\\dev\\Corso-its\\c#\\FITSTIC20_Esame_2\\FITSTIC20.csproj",
         "projectName": "FITSTIC20",
-        "projectPath": "C:\\Users\\Andrea\\Downloads\\FITSTIC20_Esame-20210302T083713Z-001\\FITSTIC20_Esame\\FITSTIC20.csproj",
+        "projectPath": "C:\\Users\\Andrea\\Documents\\dev\\Corso-its\\c#\\FITSTIC20_Esame_2\\FITSTIC20.csproj",
         "packagesPath": "C:\\Users\\Andrea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrea\\Downloads\\FITSTIC20_Esame-20210302T083713Z-001\\FITSTIC20_Esame\\obj\\",
+        "outputPath": "C:\\Users\\Andrea\\Documents\\dev\\Corso-its\\c#\\FITSTIC20_Esame_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrea\\AppData\\Roaming\\NuGet\\NuGet.Config",
