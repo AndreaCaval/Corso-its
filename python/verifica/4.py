@@ -1,10 +1,8 @@
-#import sys 
-
 testo2 = ""
 
 parola = input("Inserisci una stringa: ")
 
-with open("C:/Users/Andrea/Documents/dev/Corso-its/python/08-03-21/file.txt") as fileHandler:
+with open("fileinput.txt") as fileHandler:
     lines = fileHandler.readlines()
 
 for line in lines:
@@ -19,8 +17,6 @@ for line in lines:
         else:
             testo2 += parola
     
-f = open("testo2.txt", "w")
+f = open("fileinput.txt", "w")
 f.write(testo2)
 f.close()
-
-
