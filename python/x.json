@@ -1,0 +1,11 @@
+{
+    "dvd": [{
+            "nome": "s",
+            "genere": "nomeGenere1"
+        },
+        {
+            "nome": "a",
+            "genere": "nomeGenereN"
+        }
+    ]
+}
